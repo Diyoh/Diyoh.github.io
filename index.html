@@ -103,7 +103,18 @@ body.menu-open .burger i:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
 .hero-word .l:nth-child(2) span{animation-delay:.14s}
 @keyframes rise{to{transform:none}}
 @media(max-width:760px){
-  .hero-word{transform:translate(-16%,-50%)}
+  /* condensed + heavy, sitting higher on a phone */
+  .hero-word{
+    top:0;
+    font-size:clamp(4.3rem,19.5vw,10rem);
+    line-height:.82;
+    transform:translate(-16%,-50%);
+  }
+  /* BOLD carries the weight; BUILD sits slightly smaller above it */
+  .hero-word .l:first-child{font-size:.7em;font-weight:800;letter-spacing:-.022em}
+  .hero-word .gdot{display:inline-block;width:.15em;height:.15em;border-radius:50%;
+    background:var(--red);vertical-align:.45em;margin-right:.14em}
+  .hero-word .l:nth-child(2){font-weight:900;letter-spacing:-.035em}
   .hero-mark{transform:translate(28%,-50%)}
 }
 .hero-mark{
@@ -510,8 +521,10 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
 }
 @media(max-width:760px){
   /* hero copy left, circle stays centred */
-  .hero{align-items:stretch;padding-bottom:4.2rem}
+  .hero{align-items:stretch;padding-top:9.5rem;padding-bottom:2rem}
   .hero-stage{margin:0 auto}
+  /* start where BOLD starts: the stage edge, minus BOLD's 16% left bleed */
+  .hero-line,.hero-sub{padding-left:max(0px,calc((100% - min(460px,66vw))/2 - 8.64vw));padding-right:0}
   .hero-line{text-align:left;max-width:none;margin-top:2.4rem}
   .hero-sub{text-align:left}
 
@@ -602,7 +615,7 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
     <!-- Swap this image for your portrait when ready: keep it landscape, at least 1600px wide -->
     <div class="hero-img"><img id="heroPhoto" src="assets/inline-1.jpg" alt="Diyoh Shiloh, product developer and brand designer" fetchpriority="high"></div>
     <div class="hero-word" aria-label="Build Bold">
-      <span class="l"><span>BUILD</span></span>
+      <span class="l"><span><span class="gdot"></span>Build</span></span>
       <span class="l"><span>BOLD</span></span>
     </div>
     <div class="hero-mark serif" aria-hidden="true">S</div>
