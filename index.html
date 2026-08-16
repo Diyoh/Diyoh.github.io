@@ -244,6 +244,16 @@ html.hs .off-clock{margin-top:1rem;font-size:.84rem}
 @media(max-width:900px){.pers-grid{grid-template-columns:1fr}}
 
 
+/* ---- A Bold Personality runs dark, restoring light/dark alternation ---- */
+#personality{background:var(--black);color:var(--white)}
+#personality .g-title{color:var(--white)}
+#personality .trait{border-color:rgba(255,255,255,.42);color:var(--white)}
+#personality .trait.on{border-color:transparent}
+#personality .trait.on.c1{background:var(--red-2);color:#fff}
+#personality .pers-note{color:rgba(255,255,255,.68)}
+#personality .off-clock{color:rgba(255,255,255,.6)}
+#personality .off-clock span{color:var(--red-2)}
+
 /* ============ ACCORDION (leadership) ============ */
 .acc{border-top:1px solid rgba(0,0,0,.16)}
 .acc-item{border-bottom:1px solid rgba(0,0,0,.16);transition:border-color .35s}
