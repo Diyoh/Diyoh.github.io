@@ -13,6 +13,7 @@
 - GitHub: https://github.com/Diyoh
 - LinkedIn: https://www.linkedin.com/in/diyoh-shiloh-896226241
 - Instagram: https://www.instagram.com/sg_conceptz
+- Resume: https://diyoh.github.io/Diyoh_Shiloh_Resume.pdf
 
 ## Education
 
@@ -21,6 +22,7 @@
 
 ## Leadership and recognition
 
+- Tech Lead and CTO, Medaccess: led two Flutter mobile apps (patient and doctor), the web platform and the admin panel
 - Vice President, then President, Computer Science Student Body, University of Buea, 2023/2024
 - Community Educator: built and ran GTI HUB, a training codespace on GitHub forked by 60+ learners
 - GitHub Pull Shark, earned twice
@@ -37,13 +39,15 @@ Stack: Laravel, React, Flutter, PostgreSQL, Go.
 
 - Cevero Group, https://cevero.co.uk — UK group; CQC regulated home care (/care) and property refurbishment (/properties)
 - GuidaVisa, https://guidavisa.co.uk
-- Medaccess, https://medaccess.shineltd.org — patient accounts, booking and payments
+- Medaccess, https://medaccess.shineltd.org — led as Tech Lead and CTO; two Flutter apps (patient, doctor), web platform, admin panel; accounts, booking and payments
 - Sintieh Research Academy, https://sra.shineltd.org
 
 ## Design
 
-Seven brand identities: SafeRide (mobility), Take (luxury), Harald (logistics),
-D4 (fashion), Dcemedia (media and events), Bloomy (home and living), Nsibidi (heritage apparel).
+Eleven brand identities: SafeRide (mobility), Take (luxury), Harald (logistics),
+D4 (fashion), Dcemedia (media and events), Bloomy (home and living), Nchibiri/Nsibidi (heritage apparel),
+Leesh Dezynes (UK), Nordishea (UK), Wealcare (US), Zerra Staffing (UK).
+Full project archive with source folders linked on the site.
 
 ## Personal
 

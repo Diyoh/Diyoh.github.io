@@ -387,6 +387,21 @@ html.hs .led-row{padding:.7rem 0}
 .stage-dots i{width:24px;height:3px;background:rgba(255,255,255,.35);cursor:pointer;transition:background .3s}
 .stage-dots i.on{background:#fff}
 
+/* ============ PROJECT ARCHIVE ============ */
+.arch-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.9rem}
+.arch{background:var(--white);border-radius:18px;padding:1.15rem 1.25rem;text-decoration:none;color:var(--black);display:flex;flex-direction:column;gap:.55rem;transition:transform .3s var(--ease)}
+.arch:hover{transform:translateY(-6px)}
+.arch h3{font-family:var(--font-d);font-size:1.05rem;line-height:1.15;display:flex;justify-content:space-between;align-items:center;gap:.5rem}
+.arch h3 .circle-arrow{width:30px;height:30px;flex:none}
+.arch .ctry{font-family:var(--font-m);font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:#96938d}
+html.hs .arch{padding:.85rem 1rem;border-radius:14px}
+html.hs .arch h3{font-size:.92rem}
+html.hs .arch h3 .circle-arrow{width:26px;height:26px}
+html.hs .arch-grid{gap:.7rem}
+@media(max-width:900px){.arch-grid{grid-template-columns:repeat(2,1fr)}}
+#archive .pad{padding-bottom:clamp(1.6rem,4vw,3rem)}
+#archive + #connect .pad{padding-top:clamp(2.2rem,5vw,4rem)}
+
 /* ============ CONNECT ============ */
 .eng-right .stadium{aspect-ratio:900/1125;max-height:52vh}
 .connect-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,5rem);align-items:center}
@@ -724,7 +739,7 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
         <div class="ship-img"><span class="tag">Healthcare</span><span style="display:grid;place-items:center;width:100%;height:100%;background:#0b4d26"><svg viewBox="0 0 48 48" style="width:42%;stroke:#c9ecd4;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M6 24h8l4-10 6 20 4-10h14"/><rect x="4" y="8" width="40" height="32" rx="6"/></svg></span></div>
         <div class="ship-body">
           <h3>Medaccess <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
-          <p>Patients create accounts, book appointments and pay online.</p>
+          <p>Led as Tech Lead and CTO: patient and doctor Flutter apps, web platform and admin panel.</p>
           <span class="mini">medaccess.shineltd.org</span>
         </div>
       </a>
@@ -803,8 +818,22 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
     </div>
     <div class="acc rv" id="ledAcc">
       <div class="acc-item">
-        <button class="acc-row" id="ledb1" aria-expanded="false" aria-controls="ledp1">
+        <button class="acc-row" id="ledb0" aria-expanded="false" aria-controls="ledp0">
           <span class="n">01</span>
+          <span class="acc-t">Tech Lead &amp; CTO, Medaccess</span>
+          <span class="acc-code">CT-01</span>
+          <span class="acc-ic" aria-hidden="true"></span>
+        </button>
+        <div class="acc-p" id="ledp0" role="region" aria-labelledby="ledb0">
+          <div><div class="acc-in">
+            <p>Led a full healthcare system end to end: two Flutter mobile apps (patient and doctor), the web platform and the admin panel.</p>
+            <div class="acc-tags"><span>Tech Lead</span><span>CTO</span><span>Flutter x2</span><span>Web + Admin</span></div>
+          </div></div>
+        </div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-row" id="ledb1" aria-expanded="false" aria-controls="ledp1">
+          <span class="n">02</span>
           <span class="acc-t">President, CS Student Body</span>
           <span class="acc-code">LD-01</span>
           <span class="acc-ic" aria-hidden="true"></span>
@@ -818,7 +847,7 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
       </div>
       <div class="acc-item">
         <button class="acc-row" id="ledb2" aria-expanded="false" aria-controls="ledp2">
-          <span class="n">02</span>
+          <span class="n">03</span>
           <span class="acc-t">Community Educator</span>
           <span class="acc-code">ED-02</span>
           <span class="acc-ic" aria-hidden="true"></span>
@@ -832,7 +861,7 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
       </div>
       <div class="acc-item">
         <button class="acc-row" id="ledb3" aria-expanded="false" aria-controls="ledp3">
-          <span class="n">03</span>
+          <span class="n">04</span>
           <span class="acc-t">Second Class Upper Honours</span>
           <span class="acc-code">AC-03</span>
           <span class="acc-ic" aria-hidden="true"></span>
@@ -846,7 +875,7 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
       </div>
       <div class="acc-item">
         <button class="acc-row" id="ledb4" aria-expanded="false" aria-controls="ledp4">
-          <span class="n">04</span>
+          <span class="n">05</span>
           <span class="acc-t">GitHub Recognitions</span>
           <span class="acc-code">GH-04</span>
           <span class="acc-ic" aria-hidden="true"></span>
@@ -860,7 +889,7 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
       </div>
       <div class="acc-item">
         <button class="acc-row" id="ledb5" aria-expanded="false" aria-controls="ledp5">
-          <span class="n">05</span>
+          <span class="n">06</span>
           <span class="acc-t">Platform Builder, Sintieh Research Academy</span>
           <span class="acc-code">PB-05</span>
           <span class="acc-ic" aria-hidden="true"></span>
@@ -1001,6 +1030,62 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
   <div class="stage-dots" id="stageDots"></div>
 </div>
 
+<!-- ============ PROJECT ARCHIVE ============ -->
+<section id="archive" class="light panel">
+  <div class="pad">
+  <div class="wrap">
+    <div class="g-head rv">
+      <h2 class="g-title"><span class="gdot"></span>Project<br>Archive</h2>
+      <div class="g-aside">
+        <p>Every brand, full files. Click any project to open its folder.</p>
+      </div>
+    </div>
+    <div class="arch-grid">
+      <a class="arch rv" href="https://drive.google.com/drive/folders/1P9v4Cz61AdfU0GEKehlOcHD9s6lghqjG?usp=drive_link" target="_blank" rel="noopener">
+        <h3>SafeRide <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
+        <span class="ctry">Cameroon</span>
+      </a>
+      <a class="arch rv" href="https://drive.google.com/drive/folders/1Gyn8-oFkVU5Moq95NIQre8U-9y988YqK?usp=drive_link" target="_blank" rel="noopener">
+        <h3>Take <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
+        <span class="ctry">Cameroon</span>
+      </a>
+      <a class="arch rv" href="https://drive.google.com/drive/folders/1KNNcEAAIr0CQwP0TWiFVjBlXWf-0bcPV?usp=drive_link" target="_blank" rel="noopener">
+        <h3>Harald International <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
+        <span class="ctry">United States</span>
+      </a>
+      <a class="arch rv" href="https://drive.google.com/file/d/14oo8QbEbk82Vkjb81j9V7h7QCuCnyKw6/view?usp=drive_link" target="_blank" rel="noopener">
+        <h3>Dcemedia <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
+        <span class="ctry">Cameroon</span>
+      </a>
+      <a class="arch rv" href="https://drive.google.com/drive/folders/10pje5EbvG4VRc_YhAMk6MyIYl-6Ixdmf?usp=drive_link" target="_blank" rel="noopener">
+        <h3>Bloomy <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
+        <span class="ctry">Cameroon</span>
+      </a>
+      <a class="arch rv" href="https://drive.google.com/drive/folders/1OhQDCeFHpbrlELyduVaA0lVwBSxCIdKV?usp=drive_link" target="_blank" rel="noopener">
+        <h3>Nchibiri, Nsibidi <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
+        <span class="ctry">Cameroon</span>
+      </a>
+      <a class="arch rv" href="https://drive.google.com/drive/folders/1Mds2OAy4oVf0uPST9s1lsjolUipAy9DD?usp=drive_link" target="_blank" rel="noopener">
+        <h3>Leesh Dezynes <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
+        <span class="ctry">United Kingdom</span>
+      </a>
+      <a class="arch rv" href="https://drive.google.com/drive/folders/1Bx-oTQfjuPTdzjgtyYXiwQWYNNy09YIK?usp=drive_link" target="_blank" rel="noopener">
+        <h3>Nordishea <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
+        <span class="ctry">United Kingdom</span>
+      </a>
+      <a class="arch rv" href="https://drive.google.com/drive/folders/1_OMMa4lpfoXb6XPyGLLm1NDiFaSzR0UF?usp=drive_link" target="_blank" rel="noopener">
+        <h3>Wealcare <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
+        <span class="ctry">United States</span>
+      </a>
+      <a class="arch rv" href="https://drive.google.com/drive/folders/1tP7EPhXcMq_PhUR3vvROKiTn_gkinrQE?usp=drive_link" target="_blank" rel="noopener">
+        <h3>Zerra Staffing <span class="circle-arrow"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M17 7H8m9 0v9"/></svg></span></h3>
+        <span class="ctry">United Kingdom</span>
+      </a>
+    </div>
+  </div>
+  </div>
+</section>
+
 <!-- ============ CONNECT ============ -->
 <section id="connect" class="light panel connect-panel">
   <div class="pad" style="padding-bottom:0">
@@ -1037,6 +1122,7 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
         <a href="#shipped">shipped live</a>
         <a href="#leadership">leadership</a>
         <a href="#work">the design work</a>
+        <a href="#archive">project archive</a>
         <a href="#connect">contact me</a>
       </div>
       <div class="f-col">
@@ -1051,6 +1137,7 @@ footer{background:var(--black);color:var(--white);padding:3rem 0 2.4rem}
       <div class="f-col">
         <p class="fh">Status</p>
         <a href="#connect">Open for projects and roles</a>
+        <a href="Diyoh_Shiloh_Resume.pdf" target="_blank" rel="noopener">download resume (pdf)</a>
         <a href="#top">Back to top</a>
       </div>
     </div>
