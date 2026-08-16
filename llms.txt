@@ -1,0 +1,50 @@
+# Diyoh Shiloh
+
+> Full-stack product developer and brand identity designer based in Buea, Cameroon.
+> Builds medical, financial, SaaS and USSD booking systems; designs complete brand identities.
+
+## Profile
+
+- Name: Diyoh Shiloh
+- Location: Buea, South-West Region, Cameroon
+- Role: Full-stack product developer and brand identity designer
+- Site: https://diyoh.github.io/
+- Email: diyohshiloh4@gmail.com
+- GitHub: https://github.com/Diyoh
+- LinkedIn: https://www.linkedin.com/in/diyoh-shiloh-896226241
+- Instagram: https://www.instagram.com/sg_conceptz
+
+## Education
+
+- BSc Computer Science, University of Buea, 2024
+- Second Class Upper Honours
+
+## Leadership and recognition
+
+- Vice President, then President, Computer Science Student Body, University of Buea, 2023/2024
+- Community Educator: built and ran GTI HUB, a training codespace on GitHub forked by 60+ learners
+- GitHub Pull Shark, earned twice
+- GitHub Pair Extraordinaire, earned twice
+- Platform builder for Sintieh Research Academy
+
+## Engineering
+
+Domains: healthcare systems, payments and double-entry ledgers, SaaS platforms,
+booking systems over web and USSD with mobile money, authentication and security.
+Stack: Laravel, React, Flutter, PostgreSQL, Go.
+
+## Shipped
+
+- Cevero Group, https://cevero.co.uk — UK group; CQC regulated home care (/care) and property refurbishment (/properties)
+- GuidaVisa, https://guidavisa.co.uk
+- Medaccess, https://medaccess.shineltd.org — patient accounts, booking and payments
+- Sintieh Research Academy, https://sra.shineltd.org
+
+## Design
+
+Seven brand identities: SafeRide (mobility), Take (luxury), Harald (logistics),
+D4 (fashion), Dcemedia (media and events), Bloomy (home and living), Nsibidi (heritage apparel).
+
+## Personal
+
+Hobbies: coding, football.
